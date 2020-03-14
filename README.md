@@ -2,4 +2,4 @@
 Nand2Tetris, Project in Jack Language for Modern computer systems.
 Made by Dario Zavisic, sophomore at Department of Mathematics, Mathematics and Computer Science.
 
-Created on 10.3.2020.
+Created 27.02.2020 - 10.03.2020.
