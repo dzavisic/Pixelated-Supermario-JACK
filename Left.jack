@@ -1,0 +1,19 @@
+class Left
+{
+    function void draw () {
+        var Left1 l1;
+        var Left2 l2;
+        var Left3 l3;
+        do Screen.clearScreen();
+        let l1 = Left1.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        let l2 = Left2.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        let l3 = Left3.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        return;
+    }
+}

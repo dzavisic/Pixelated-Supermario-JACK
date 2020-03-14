@@ -1,0 +1,19 @@
+class Right
+{
+    function void draw() {
+        var Walk1 w1;
+        var Walk2 w2;
+        var Walk3 w3;
+        do Screen.clearScreen();
+        let w1 = Walk1.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        let w2 = Walk2.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        let w3 = Walk3.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        return;
+    }
+}

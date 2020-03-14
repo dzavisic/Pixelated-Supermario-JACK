@@ -1,0 +1,30 @@
+class App
+{
+    function void run(char input) {
+        
+        var Right rg;
+        var Left lf;
+        var Jump jump;
+        var Crouch cr;
+
+        if(input = 65){
+            let lf = Left.draw();
+            return;
+        }
+        if(input = 68){
+            let rg = Right.draw();
+            return;
+        }
+        if(input = 87)
+        {
+            let jump = Jump.draw();
+            return;
+        }
+        if(input = 83)
+        {
+            let cr = Crouch.draw();
+            return;
+        }
+        return;
+    }
+}

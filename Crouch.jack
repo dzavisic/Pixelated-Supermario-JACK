@@ -1,0 +1,17 @@
+class Crouch
+{
+    function void draw() {
+        var Crouch1 c1;
+        var Crouch2 c2;
+        do Screen.clearScreen();
+        let c1 = Crouch1.draw();
+        let c1 = Crouch1.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        let c2 = Crouch2.draw();
+        let c2 = Crouch2.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        return;
+    }
+}

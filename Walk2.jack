@@ -1,0 +1,692 @@
+class Walk2
+{
+    function void draw()
+    {
+        var int k, z, m, new,d;
+        do Screen.setColor(true);
+        do Screen.drawLine(241,106,256,106);
+        do Screen.drawLine(241,107,241,109);
+        do Screen.drawLine(256,107,256,109);
+        do Screen.drawLine(235,110,256,110);
+        do Screen.drawLine(235,111,235,114);
+        do Screen.drawLine(253,111,253,114);
+        do Screen.drawLine(256,111,256,119);
+        do Screen.drawLine(251,116,251,119);
+        do Screen.drawLine(231,115,253,115);
+        do Screen.drawLine(231,116,231,123);
+        do Screen.drawLine(251,120,266,120);
+        do Screen.drawLine(266,121,266,123);
+        do Screen.drawLine(231,124,266,124);
+        do Screen.drawLine(260,125,260,129);
+        do Screen.drawLine(260,130,266,130);
+        do Screen.drawLine(266,131,266,135);
+        do Screen.drawLine(267,135,269,135);
+        do Screen.drawLine(269,136,269,142);
+        do Screen.drawLine(266,143,269,143);
+        do Screen.drawLine(263,154,263,157);
+        do Screen.drawLine(253,158,263,158);
+        do Screen.drawLine(253,159,253,162);
+        do Screen.drawLine(247,163,250,163);
+        do Screen.drawLine(247,159,247,162);
+        do Screen.drawLine(231,158,247,158);
+        do Screen.drawLine(234,159,234,161);
+        do Screen.drawLine(251,182,256,182);
+        do Screen.drawLine(228,192,228,211);
+        do Screen.drawLine(229,211,231,211);
+        do Screen.drawLine(231,212,231,215);
+        do Screen.drawLine(232,215,234,215);
+        do Screen.drawLine(259,187,259,192);
+        do Screen.drawLine(260,192,263,192);
+        do Screen.drawLine(260,193,260,200);
+        do Screen.drawLine(263,193,263,196);
+        do Screen.drawLine(257,201,260,201);
+        do Screen.drawLine(264,197,266,197);
+        do Screen.drawLine(267,196,267,211);
+        do Screen.drawLine(263,211,266,211);
+        do Screen.drawLine(263,212,263,215);
+        do Screen.drawLine(257,203,257,206);
+        do Screen.drawLine(254,206,256,206);
+        do Screen.drawLine(234,217,234,223);
+        do Screen.drawLine(234,224,237,224);
+        do Screen.drawLine(238,224,238,229);
+        do Screen.drawLine(248,124,250,124);
+
+        do Screen.drawRectangle(231,125,240,128);
+        do Screen.drawRectangle(228,129,231,138);
+        do Screen.drawRectangle(238,130,240,133);
+        do Screen.drawRectangle(238,134,244,144);
+        do Screen.drawRectangle(248,125,250,129);
+        do Screen.drawRectangle(248,130,253,133);
+        do Screen.drawRectangle(225,139,231,148);
+        do Screen.drawRectangle(228,149,234,152);
+        do Screen.drawRectangle(228,153,237,154);
+        do Screen.drawRectangle(231,155,237,157);
+        do Screen.drawRectangle(254,139,257,143);
+        do Screen.drawRectangle(248,144,266,148);
+        do Screen.drawRectangle(251,149,266,153);
+        do Screen.drawRectangle(231,162,234,167);
+        do Screen.drawRectangle(238,163,244,167);
+        do Screen.drawRectangle(251,163,257,167);
+        do Screen.drawRectangle(228,168,231,191);
+        do Screen.drawRectangle(236,168,247,196);
+        do Screen.drawRectangle(248,182,250,186);
+        do Screen.drawRectangle(254,168,257,172);
+        do Screen.drawRectangle(254,173,260,177);
+        do Screen.drawRectangle(257,178,260,186);
+        do Screen.drawRectangle(238,197,247,201);
+        do Screen.drawRectangle(241,202,247,206);
+        do Screen.drawRectangle(248,206,253,210);
+        do Screen.drawRectangle(248,211,257,215);
+        do Screen.drawRectangle(244,216,263,220);
+        do Screen.drawRectangle(241,221,260,225);
+        do Screen.drawRectangle(244,226,257,229);
+        do Screen.drawRectangle(251,230,260,234);
+        do Screen.drawRectangle(254,235,260,239);
+        do Screen.drawRectangle(238,230,240,238);
+        do Screen.drawRectangle(241,236,250,238);
+        do Screen.drawRectangle(234,239,250,249);
+        do Screen.drawRectangle(251,244,257,249);
+        do Screen.drawRectangle(241,250,257,254);
+        
+        //boja kape
+        //prvi level
+        let k = 14;
+        let z = 242;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(true);
+                do Screen.drawPixel(z,107);
+            }
+            do Screen.setColor(false);
+            let z=z+1;
+            let k=k-1;
+        }
+        let k = 14;
+        let z = 242;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(false);
+                do Screen.drawPixel(z,108);
+            }
+            do Screen.setColor(true);
+
+            let z=z+1;
+            let k=k-1;
+        }
+        let k = 14;
+        let z = 242;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(true);
+                do Screen.drawPixel(z,109);
+            }
+            do Screen.setColor(false);
+            let z=z+1;
+            let k=k-1;
+        }
+        //drugi level
+        let k = 18;
+        let z = 235;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(true);
+                do Screen.drawPixel(z,111);
+            }
+            do Screen.setColor(false);
+            let z=z+1;
+            let k=k-1;
+        }
+        let k = 18;
+        let z = 235;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(false);
+                do Screen.drawPixel(z,112);
+            }
+            do Screen.setColor(true);
+            let z=z+1;
+            let k=k-1;
+        }
+        let k = 18;
+        let z = 235;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(true);
+                do Screen.drawPixel(z,113);
+            }
+            do Screen.setColor(false);
+            let z=z+1;
+            let k=k-1;
+        }
+        //treci level
+        //prvi dio
+        let k = 19;
+        let z = 232;
+        let new = 4;
+        let d = 116;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 19;
+            let z = 232;
+        }
+        let k = 14;
+        let z = 251;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(true);
+                do Screen.drawPixel(z,121);
+            }
+            do Screen.setColor(false);
+            let z=z+1;
+            let k=k-1;
+        }
+        let k = 14;
+        let z = 251;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(false);
+                do Screen.drawPixel(z,122);
+            }
+            do Screen.setColor(true);
+            let z=z+1;
+            let k=k-1;
+        }
+        let k = 14;
+        let z = 251;
+        while(k>0)
+        {
+            let m = z-(2*(z/2));
+            if(m  > 0 )
+            {
+                do Screen.setColor(true);
+                do Screen.drawPixel(z,123);
+            }
+            do Screen.setColor(false);
+            let z=z+1;
+            let k=k-1;
+        }
+
+        //odjeca
+        let k = 12;
+        let z = 235;
+        let new = 2;
+        let d = 159;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 12;
+            let z = 235;
+        }
+        let k = 3;
+        let z = 235;
+        let new = 2;
+        let d = 163;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 3;
+            let z = 235;
+        }
+        do Screen.setColor(true);
+        do Screen.drawPixel(246,163);
+        let k = 6;
+        let z = 245;
+        let new = 2;
+        let d = 164;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 6;
+            let z = 245;
+        }
+        let k = 3;
+        let z = 232;
+        let new = 12;
+        let d = 168;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 3;
+            let z = 232;
+        }
+        let k = 6;
+        let z = 248;
+        let new = 7;
+        let d = 168;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 6;
+            let z = 248;
+        }
+        let k = 3;
+        let z = 254;
+        let new = 2;
+        let d = 178;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 3;
+            let z = 254;
+        }
+        
+        let k = 6;
+        let z = 229;
+        let new = 3;
+        let d = 192;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 6;
+            let z = 229;
+        }
+        let k = 9;
+        let z = 229;
+        let new = 3;
+        let d = 197;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 9;
+            let z = 229;
+        }
+        let k = 12;
+        let z = 229;
+        let new = 3;
+        let d = 202;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 12;
+            let z = 229;
+        }
+        let k = 19;
+        let z = 229;
+        let new = 2;
+        let d = 207;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 19;
+            let z = 229;
+        }
+        let k = 16;
+        let z = 232;
+        let new = 2;
+        let d = 211;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 16;
+            let z = 232;
+        }
+        let k = 9;
+        let z = 235;
+        let new = 3;
+        let d = 215;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 9;
+            let z = 235;
+        }
+        let k = 6;
+        let z = 235;
+        let new = 2;
+        let d = 221;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 6;
+            let z = 235;
+        }
+        let k = 5;
+        let z = 239;
+        let new = 2;
+        let d = 226;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 5;
+            let z = 239;
+        }
+        let k = 10;
+        let z = 241;
+        let new = 3;
+        let d = 230;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 10;
+            let z = 241;
+        }
+        let k = 2;
+        let z = 261;
+        let new = 2;
+        let d = 193;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 2;
+            let z = 261;
+        }
+        let k = 6;
+        let z = 261;
+        let new = 7;
+        let d = 197;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 6;
+            let z = 261;
+        }
+        let k = 3;
+        let z = 258;
+        let new = 5;
+        let d = 202;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 3;
+            let z = 258;
+        }
+        let k = 4;
+        let z = 254;
+        let new = 2;
+        let d = 207;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 4;
+            let z = 254;
+        }
+        let k = 5;
+        let z = 258;
+        let new = 3;
+        let d = 211;
+        while(new>0){
+            while(k>0)
+            {
+                let m = z-(2*(z/2));
+                if(m  > 0 )
+                {
+                    do Screen.setColor(true);
+                    do Screen.drawPixel(z,d);
+                }
+                do Screen.setColor(false);
+                let z=z+1;
+                let k=k-1;
+            }
+            let d = d+2;
+            let new = new-1;
+            let k = 5;
+            let z = 258;
+        }
+        return;
+    }
+}

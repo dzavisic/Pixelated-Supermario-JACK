@@ -1,0 +1,22 @@
+class Jump
+{
+    function void draw() {
+        var Mario jump1;
+        var Jump2 jump2;
+        var Jump3 jump3;
+        do Screen.clearScreen();
+        let jump1 = Mario.mario();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,100,315,254);
+        let jump2 = Jump2.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,40,315,250);
+        let jump3 = Jump3.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,40,315,230);
+        let jump2 = Jump2.draw();
+        do Screen.setColor(false);
+        do Screen.drawRectangle(200,70,315,254);
+        return;
+    }
+}
